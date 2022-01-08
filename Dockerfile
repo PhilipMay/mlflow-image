@@ -1,7 +1,5 @@
 FROM python:3.10-slim-buster
 
-# we might want to use the non binary psycopg2 package later
-# see https://www.psycopg.org/docs/install.html#psycopg-vs-psycopg-binary
 RUN apt-get update && \
     apt-get -y install libpq-dev gcc && \
     pip install --no-cache-dir --upgrade pip && \
