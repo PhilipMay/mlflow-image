@@ -1,4 +1,4 @@
-FROM python:3.9.9-slim-bullseye
+FROM python:3.10-slim-buster
 
 # we might want to use the non binary psycopg2 package later
 # see https://www.psycopg.org/docs/install.html#psycopg-vs-psycopg-binary
