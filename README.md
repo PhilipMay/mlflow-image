@@ -8,4 +8,4 @@ They correspond to the git tags here: https://gitlab.com/PhilipMay/mlflow-image/
 The image can be referenced like this: `registry.gitlab.com/philipmay/mlflow-image:1-22-0-mlflow-r4`
 
 ## Tagging Policy
-`<MLflow_version>-mlflow-r<image_revison_number_counting_from_1>`
+Tags have this format: `<MLflow_version>-mlflow-r<image_revison_number_counting_from_1>`
