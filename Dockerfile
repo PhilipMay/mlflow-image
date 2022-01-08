@@ -5,16 +5,10 @@ FROM python:3.9.9-slim-bullseye
 RUN apt-get update && \
     apt-get -y install libpq-dev gcc && \
     pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir mlflow psycopg2 boto3
-
-ARG unprivileged_user=mlflow
-
-RUN useradd ${unprivileged_user} --shell /bin/bash --create-home
-
-USER ${unprivileged_user}
-
-WORKDIR /home/${unprivileged_user}
+    pip install --no-cache-dir mlflow==1.22.0 psycopg2 boto3
 
 EXPOSE 5000
 
+WORKDIR /app
+USER 1001
 CMD ["mlflow","server","-h","0.0.0.0"]
