@@ -1,5 +1,6 @@
 # MLflow Image
-A MLflow Docker Image based on the Python base image and slim-bullseye.
+A [MLflow](https://www.mlflow.org/docs/latest/index.html) Docker image based on the 
+[Python base image](https://hub.docker.com/_/python) and [slim-bullseye](https://hub.docker.com/_/debian).
 
 The available image tags can be found here: https://gitlab.com/PhilipMay/mlflow-image/container_registry/2632948
 
