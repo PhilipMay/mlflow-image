@@ -5,6 +5,7 @@ RUN apt-get update && \
     pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir mlflow==1.22.0 psycopg2 boto3 && \
     apt-get purge -y --auto-remove gcc && \
+    apt-get clean && \
     mkdir -p /app/mlruns && \
     chown -R 1001:1001 /app
 
