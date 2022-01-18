@@ -1,5 +1,7 @@
 FROM python:3.10.1-slim-bullseye
 
+LABEL maintainer="Philip May <eniak.info@gmail.com>"
+
 RUN apt-get update && \
     apt-get -y install libpq-dev gcc && \
     pip install --no-cache-dir --upgrade pip && \
