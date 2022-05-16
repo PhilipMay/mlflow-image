@@ -5,7 +5,10 @@ LABEL maintainer="Philip May <eniak.info@gmail.com>"
 RUN apt-get update && \
     apt-get -y install libpq-dev gcc && \
     pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir mlflow==1.26.0 psycopg2==2.9.3 boto3==1.23.0 && \
+    pip install --no-cache-dir \
+    mlflow==1.26.0 \
+    psycopg2==2.9.3 \
+    boto3==1.23.0 && \
     apt-get purge -y --auto-remove gcc && \
     apt-get clean && \
     mkdir -p /app/mlruns && \
