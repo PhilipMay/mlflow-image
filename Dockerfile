@@ -8,8 +8,8 @@ RUN apt-get update && \
     pip install --no-cache-dir \
     mlflow==1.26.0 \
     psycopg2==2.9.3 \
-    boto3==1.23.0 && \
-    apt-get purge -y --auto-remove gcc && \
+    boto3==1.23.0 \
+    && apt-get purge -y --auto-remove gcc && \
     apt-get clean && \
     mkdir -p /app/mlruns && \
     chown -R 1001:1001 /app
