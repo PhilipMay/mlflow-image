@@ -11,6 +11,7 @@ RUN apt-get update && \
     boto3==1.23.0 \
     && apt-get purge -y --auto-remove gcc && \
     apt-get clean && \
+    useradd --shell /bin/bash --uid 1001 --gid 1001 mlflow \
     mkdir -p /app/mlruns && \
     chown -R 1001:1001 /app
 
