@@ -11,12 +11,12 @@ RUN apt-get update && \
     boto3==1.23.0 \
     && apt-get purge -y --auto-remove gcc && \
     apt-get clean && \
-    useradd --shell /bin/bash --uid 1001 --gid 1001 mlflow \
+    useradd --shell /bin/bash mlflow \
     mkdir -p /app/mlruns && \
-    chown -R 1001:1001 /app
+    chown -R mlflow:mlflow /app
 
 EXPOSE 5000
 
 WORKDIR /app
-USER 1001:1001
+USER mlflow
 CMD ["mlflow","server","-h","0.0.0.0"]
