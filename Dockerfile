@@ -12,7 +12,7 @@ RUN apt-get update && \
     && apt-get purge -y --auto-remove gcc && \
     apt-get clean && \
     # see https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user
-    groupadd -r mlflow && useradd --no-log-init -r -g mlflow mlflow \
+    groupadd -r mlflow && useradd --no-log-init -r -g mlflow mlflow && \
     mkdir -p /app/mlruns && \
     chown -R mlflow:mlflow /app
 
