@@ -11,12 +11,13 @@ RUN apt-get update && \
     boto3==1.23.0 \
     && apt-get purge -y --auto-remove gcc && \
     apt-get clean && \
-    useradd --shell /bin/bash mlflow \
+    # see https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user
+    groupadd -r mlflow && useradd --no-log-init -r -g mlflow mlflow \
     mkdir -p /app/mlruns && \
     chown -R mlflow:mlflow /app
 
 EXPOSE 5000
 
 WORKDIR /app
-USER mlflow
+USER mlflow:mlflow
 CMD ["mlflow","server","-h","0.0.0.0"]
