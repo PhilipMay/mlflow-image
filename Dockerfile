@@ -6,9 +6,9 @@ RUN apt-get update && \
     apt-get -y install libpq-dev gcc && \
     pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir \
-    mlflow==1.26.0 \
-    psycopg2==2.9.3 \
-    boto3==1.23.0 \
+    mlflow==1.26.1 \
+    psycopg2 \
+    boto3 \
     && apt-get purge -y --auto-remove gcc && \
     apt-get clean && \
     # see https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user
