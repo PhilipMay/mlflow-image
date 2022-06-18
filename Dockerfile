@@ -1,3 +1,4 @@
+# https://hub.docker.com/_/python
 FROM python:3.10.4-slim-bullseye
 
 LABEL maintainer="Philip May <eniak.info@gmail.com>"
