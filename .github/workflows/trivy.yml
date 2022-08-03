@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE-REF: 'ghcr.io/philipmay/smart-prom-next:latest'
+  IMAGE-REF: 'ghcr.io/philipmay/mlflow-image:latest'
 
 jobs:
   check:
