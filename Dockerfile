@@ -15,7 +15,8 @@ RUN apt-get update && \
     # see https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user
     groupadd -r mlflow && useradd --no-log-init -r -g mlflow mlflow && \
     mkdir -p /app/mlruns && \
-    chown -R mlflow:mlflow /app
+    chown -R mlflow:mlflow /app && \
+    rm -rf /var/lib/apt/lists/*
 
 EXPOSE 5000
 
