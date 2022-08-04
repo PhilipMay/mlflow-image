@@ -18,8 +18,7 @@ RUN apt-get update && \
     chown -R mlflow:mlflow /app && \
     rm -rf /var/lib/apt/lists/*
 
-EXPOSE 5000
-
 WORKDIR /app
 USER mlflow:mlflow
+EXPOSE 5000
 CMD ["mlflow","server","-h","0.0.0.0"]
