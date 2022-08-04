@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/python
 FROM python:3.10.6-slim-bullseye
 
-LABEL maintainer="Philip May <eniak.info@gmail.com>"
+LABEL maintainer="Philip May <philip@may.la>"
 
 RUN apt-get update && \
     apt-get -y install libpq-dev gcc && \
