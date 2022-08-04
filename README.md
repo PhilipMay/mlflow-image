@@ -5,7 +5,7 @@ The Docker image is built from the slim version of the [official Python Docker i
 which uses [Debian Bullseye](https://www.debian.org/releases/bullseye/).\
 It is built for multiple platforms: linux/amd64, linux/arm64/v8
 
-The Docker image, can be accessed using:
+The Docker image, can be accessed using:\
 `ghcr.io/philipmay/mlflow-image:<MLflow_version>-r<image_revison_number_counting_from_1>-slim-bullseye` or\
 `ghcr.io/philipmay/mlflow-image:latest`
 
