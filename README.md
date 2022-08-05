@@ -4,7 +4,7 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/PhilipMay/mlflow-image)](https://github.com/PhilipMay/mlflow-image/issues)
 [![Docker build Debian image](https://github.com/PhilipMay/mlflow-image/actions/workflows/docker-build-debian.yml/badge.svg)](https://github.com/PhilipMay/mlflow-image/actions/workflows/docker-build-debian.yml)
 [![trivy](https://github.com/PhilipMay/mlflow-image/actions/workflows/trivy.yml/badge.svg)](https://github.com/PhilipMay/mlflow-image/actions/workflows/trivy.yml)\
-[![Docker images](https://img.shields.io/badge/Docker-images-blue)](https://github.com/PhilipMay/mlflow-image/pkgs/container/mlflow-image)
+[![Docker images](https://img.shields.io/badge/Docker-image-blue)](https://github.com/PhilipMay/mlflow-image/pkgs/container/mlflow-image)
 
 The [MLflow](https://www.mlflow.org/docs/latest/index.html) Docker image.
 
