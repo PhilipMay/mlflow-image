@@ -1,4 +1,4 @@
-# MLflow Image
+# MLflow Docker Image
 
 [![Docker images](https://img.shields.io/badge/Docker-image-blue)](https://github.com/PhilipMay/mlflow-image/pkgs/container/mlflow-image)
 [![MIT License](https://img.shields.io/github/license/PhilipMay/mlflow-image)](https://github.com/PhilipMay/mlflow-image/blob/main/LICENSE)
