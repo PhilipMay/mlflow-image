@@ -17,4 +17,4 @@ no unpublished changes yet
 ### Links
 - [GitHub release](https://github.com/PhilipMay/mlflow-image/releases/tag/2.1.1-r1)
 - [Docker Image](https://github.com/PhilipMay/mlflow-image/pkgs/container/mlflow-image/60688586?tag=2.1.1-r1)
-- `ghcr.io/philipmay/mlflow-image:2.1.1-r1`
+- Docker Image name: `ghcr.io/philipmay/mlflow-image:2.1.1-r1`
