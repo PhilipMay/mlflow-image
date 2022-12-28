@@ -28,10 +28,10 @@ Example: `1.27.0-r1`
 All notable changes to this project will be documented in this section.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/).
 
-### Unreleased
+### Unreleased Version
 no unpublished changes
 
-### `2.1.1-r1` - 2022-12-27
+### Version `2.1.1-r1` at 2022-12-27
 
 #### Changes
 - update base docker image to `python:3.10.9-slim-bullseye`
