@@ -33,11 +33,11 @@ no unpublished changes
 
 ### Version `2.1.1-r1` at 2022-12-27
 
-#### Changes
+#### Changes in this Version
 - update base docker image to `python:3.10.9-slim-bullseye`
 - update to MLflow version 2.1.1 ([release notes](https://github.com/mlflow/mlflow/releases/tag/v2.1.1))
 
-#### Links
+#### Links for this Version
 - [GitHub release](https://github.com/PhilipMay/mlflow-image/releases/tag/2.1.1-r1)
 - [Docker Image](https://github.com/PhilipMay/mlflow-image/pkgs/container/mlflow-image/60688586?tag=2.1.1-r1)
 - Docker Image name: `ghcr.io/philipmay/mlflow-image:2.1.1-r1`
