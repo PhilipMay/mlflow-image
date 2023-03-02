@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get -y install libpq-dev gcc && \
     pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir \
-    mlflow==2.1.1 \
+    mlflow==2.2.0 \
     psycopg2 \
     boto3 \
     && apt-get purge -y --auto-remove gcc && \
