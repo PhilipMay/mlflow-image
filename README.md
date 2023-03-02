@@ -31,6 +31,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/).
 ### Unreleased Version
 no unpublished changes
 
+### Version `2.2.0-r1` at 2023-03-02
+
+#### Changes in this Version
+- [update to MLflow 2.2.0](https://github.com/PhilipMay/mlflow-image/commit/89f833a915ff10964a25a08303bfa0b05a6f651e)
+- [update to python:3.10.10-slim-bullseye](https://github.com/PhilipMay/mlflow-image/commit/79b84feb1331eac66cf96b0352dafc7229bf0c16)
+
+#### Links for this Version
+- [GitHub release](https://github.com/PhilipMay/mlflow-image/releases/tag/2.2.0-r1)
+- [Docker Image](https://github.com/PhilipMay/mlflow-image/pkgs/container/mlflow-image/74312740?tag=2.2.0-r1)
+- Docker Image name: `ghcr.io/philipmay/mlflow-image:2.2.0-r1`
+
 ### Version `2.1.1-r1` at 2022-12-27
 
 #### Changes in this Version
