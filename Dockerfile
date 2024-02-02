@@ -10,6 +10,7 @@ RUN apt-get update && \
     mlflow==2.10.0 \
     psycopg2 \
     boto3 \
+    prometheus-flask-exporter \
     && apt-get purge -y --auto-remove gcc && \
     apt-get clean && \
     # see https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user
