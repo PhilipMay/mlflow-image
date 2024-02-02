@@ -24,35 +24,6 @@ The latest versions are visible in
 Versions and Docker Image tags have this format: `<MLflow_version>-r<image_revison_number>`\
 Example: `1.27.0-r1`
 
-## Changelog
-All notable changes to this project will be documented in this section.
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/).
-
-### Unreleased Version
-no unpublished changes
-
-### Version `2.2.0-r1` at 2023-03-02
-
-#### Changes in this Version
-- [update to MLflow 2.2.0](https://github.com/PhilipMay/mlflow-image/commit/89f833a915ff10964a25a08303bfa0b05a6f651e)
-- [update to python:3.10.10-slim-bullseye](https://github.com/PhilipMay/mlflow-image/commit/79b84feb1331eac66cf96b0352dafc7229bf0c16)
-
-#### Links for this Version
-- [GitHub release](https://github.com/PhilipMay/mlflow-image/releases/tag/2.2.0-r1)
-- [Docker Image](https://github.com/PhilipMay/mlflow-image/pkgs/container/mlflow-image/74312740?tag=2.2.0-r1)
-- Docker Image name: `ghcr.io/philipmay/mlflow-image:2.2.0-r1`
-
-### Version `2.1.1-r1` at 2022-12-27
-
-#### Changes in this Version
-- update base docker image to `python:3.10.9-slim-bullseye`
-- update to MLflow version 2.1.1 ([release notes](https://github.com/mlflow/mlflow/releases/tag/v2.1.1))
-
-#### Links for this Version
-- [GitHub release](https://github.com/PhilipMay/mlflow-image/releases/tag/2.1.1-r1)
-- [Docker Image](https://github.com/PhilipMay/mlflow-image/pkgs/container/mlflow-image/60688586?tag=2.1.1-r1)
-- Docker Image name: `ghcr.io/philipmay/mlflow-image:2.1.1-r1`
-
 ## Licensing
 
 Copyright (c) 2022 Philip May
